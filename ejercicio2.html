@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <p class="parrafo1">Puedes comprar hasta 10 stickers por persona, seleccionalos:</p>
+    <div class="caja_contenedora">
+        <div class="cajas">
+            <img src="assets/img/messi.PNG" alt="sticker messi">
+            <input type="number" min="0" max="10"  value="0" id="inputSticker1">
+        </div>
+        <div class="cajas">
+            <img src="assets/img/cr7.PNG" alt="sticker cristiano">
+            <input type="number" min="0" max="10" value="0"  id="inputSticker2">
+        </div>
+        <div class="cajas">
+            <img src="assets/img/neymar.PNG" alt="sticker neymar">
+            <input type="number" min="0" max="10" value="0" id="inputSticker3">
+        </div>
+    </div>
+    <div class="caja_inferior">
+        <p id="salidaDatos"></p>
+        <button onclick="contadorStickers()">Verificar</button>
+    </div>
+
+    <script src="codigo.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+nav {
+    background-color: #4488dd;
+}
+
+.u_list {
+    display: flex; 
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+
+.u_list li {
+    margin: 14px;
+}
+
+.u_list a {
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
